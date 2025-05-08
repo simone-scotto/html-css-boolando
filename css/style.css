@@ -1,0 +1,73 @@
+
+
+/*debug*/
+
+.debug 
+{
+   *
+   {
+    border: 1px solid black;
+   }
+
+    header 
+    {
+     background-color: rgb(255, 112, 24);
+     padding: 1rem 0;
+
+    }
+
+
+   
+        
+}
+
+
+/*common */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    width: 70%;
+}
+/*header */
+
+header 
+{
+    background-color: rgb(255, 112, 24);
+    padding: 1rem 0;
+
+}
+
+li {
+    list-style: none;
+    color: white;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.list {
+    display: flex;
+
+}
+
+
+.logo {
+    width: 25%;
+}
+
+
+/*main */
+
+
+
+/*footer */
+
