@@ -36,6 +36,10 @@ img {
     max-width: 1200px;
 }
 
+.weight {
+    font-weight: 600;
+}
+
 
 
 .row {
@@ -114,6 +118,42 @@ img {
 }
 
 
+
+
+
+/*header */
+
+header 
+{
+ background-color: rgb(255, 112, 24);
+ padding: 1rem 0;
+ position: sticky;
+ top: 0;
+ left: 0;
+ z-index: 2000;
+
+}
+a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+.logo {
+    height: 30px;
+}
+
+
+/*main */
+
+
 .info > * {
     padding: 5px;
 }
@@ -139,40 +179,22 @@ img {
         color: red;
 }
 
-
-
-/*header */
-
-header 
-{
- background-color: rgb(255, 112, 24);
- padding: 1rem 0;
- position: sticky;
- top: 0;
- left: 0;
- z-index: 1000;
-
-}
-a {
-    list-style: none;
-    color: white;
-}
-
-.menu {
-    display: flex;
-    justify-content: space-between;
-
-}
-
-
-.logo {
-    height: 30px;
-}
-
-
-/*main */
-
-
-
 /*footer */
 
+footer {
+    background-color: black;
+    color: white;
+    padding: 1rem 0;
+}
+
+.big {
+    font-size: 1.2rem;
+}
+
+.foot {
+    font-size: 0.8rem;
+}
+
+.weight.foot {
+    margin-bottom: 5px;
+}
