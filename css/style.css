@@ -9,12 +9,7 @@
     border: 1px solid black;
    }
 
-    header 
-    {
-     background-color: rgb(255, 112, 24);
-     padding: 1rem 0;
-
-    }
+  
 
 
    
@@ -41,6 +36,8 @@ img {
     max-width: 1200px;
 }
 
+
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -59,16 +56,71 @@ img {
                 right: 0;
                 font-size: 20px;
                 padding: 10px;
+                z-index: 1000;
             }
+
+
+            .info {
+                position: absolute;
+                bottom: 2.5rem;
+                left: 0;
+                font-size: 15px;
+                z-index: 1000;
+                color: white;
+
+                .sale {
+                    background-color: red;
+                    margin-right: 5px;
+                }
+
+                .eco {
+                    background-color: green;
+                }
+
+                
+            }
+
+            
 
            
             
         }
+
+        .low {
+            color: red;
+            font-size: 0.9rem;
+            font-weight: 600;
+
+        
+            del {
+                color: black;
+            }
+        
+        }
+
+        .brand {
+            font-size: 0.9rem;
+        }
+
+        .description {
+            font-size: 1rem;
+            font-weight: 600;
+        }
+        
     }
     
     
     
 }
+
+
+.info > * {
+    padding: 5px;
+}
+
+
+
+
 
 .overlay {
     position: absolute;
@@ -77,6 +129,7 @@ img {
 }
 
 .card:hover {
+
     .overlay {
         display: block;
     }
@@ -92,11 +145,14 @@ img {
 
 header 
 {
-    background-color: rgb(255, 112, 24);
-    padding: 1rem 0;
+ background-color: rgb(255, 112, 24);
+ padding: 1rem 0;
+ position: sticky;
+ top: 0;
+ left: 0;
+ z-index: 1000;
 
 }
-
 a {
     list-style: none;
     color: white;
