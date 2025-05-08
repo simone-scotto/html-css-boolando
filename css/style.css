@@ -73,12 +73,12 @@ img {
                 color: white;
 
                 .sale {
-                    background-color: red;
+                    background-color:  #ff0000;
                     margin-right: 5px;
                 }
 
                 .eco {
-                    background-color: green;
+                    background-color: #008000;
                 }
 
                 
@@ -91,7 +91,7 @@ img {
         }
 
         .low {
-            color: red;
+            color: #ff0000;
             font-size: 0.9rem;
             font-weight: 600;
 
@@ -125,7 +125,7 @@ img {
 
 header 
 {
- background-color: rgb(255, 112, 24);
+ background-color: #ff6900;
  padding: 1rem 0;
  position: sticky;
  top: 0;
