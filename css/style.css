@@ -45,7 +45,7 @@ img {
 .row {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 -1rem;
+    margin: 2rem -1rem;
 
     .col_4 {
         width: calc(100% / 12 *4);
